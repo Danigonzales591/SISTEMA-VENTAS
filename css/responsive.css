@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .login {
+        width: 90%;
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+}
+/* DISEÑO PARA CELULARES Y TABLETAS */
+
+@media (max-width: 768px) {
+
+    .panel {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .panel section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .panel h2 {
+        font-size: 18px;
+    }
+
+    .panel input,
+    .panel button {
+        width: 100%;
+    }
+}

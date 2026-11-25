@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes - Sistema de Ventas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+    <header>
+        <h1>SISTEMA DE VENTAS</h1>
+        <p>Registro de clientes</p>
+    </header>
+
+    <nav class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="../index.html">Cerrar sesión</a>
+    </nav>
+
+    <main class="panel">
+        <section>
+            <h2>Registrar cliente</h2>
+
+            <form id="formClientes">
+                <label>Nombre completo:</label>
+                <input type="text" id="nombreCliente" required>
+
+                <label>Teléfono:</label>
+                <input type="tel" id="telefonoCliente" required>
+
+                <label>Correo electrónico:</label>
+                <input type="email" id="correoCliente" required>
+
+                <button type="submit">Guardar cliente</button>
+            </form>
+
+            <p id="mensajeCliente"></p>
+        </section>
+
+        <section>
+            <h2>Lista de clientes</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Teléfono</th>
+                        <th>Correo</th>
+                    </tr>
+                </thead>
+                <tbody id="listaClientes"></tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico - Diseño y Programación Web I</p>
+    </footer>
+
+    <script src="../js/clientes.js"></script>
+</body>
+</html>

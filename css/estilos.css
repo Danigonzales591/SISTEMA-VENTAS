@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+}
+
+header {
+    background: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.login {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #17365d;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.login input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login button {
+    width: 100%;
+    padding: 12px;
+    background: #17365d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background: #24558e;
+}
+
+#mensaje {
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer {
+    background: #17365d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+/* MENU DE NAVEGACION */
+.menu {
+    background: #24558e;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+
+/* PANEL PRINCIPAL */
+.panel {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.panel section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #0002;
+}
+
+.panel h2 {
+    color: #17365d;
+    margin-bottom: 20px;
+}
+
+/* FORMULARIOS */
+.panel input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.panel button {
+    padding: 12px 20px;
+    background: #17365d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #17365d;
+    color: white;
+}
